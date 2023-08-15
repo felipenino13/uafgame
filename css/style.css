@@ -16,6 +16,14 @@ button{
     margin-right: 24px;
 }
 
+.marca{
+    padding: 16px;
+}
+
+.marca img{
+    margin: auto;
+    display: flex;
+}
 .row{
     width: 100%;
     background: #E1EEDA;
@@ -73,6 +81,7 @@ p{
 }
 
 .baseCard{
+    width: 100%;
     background: white;
     padding: 16px;
     border-radius: 8px;
