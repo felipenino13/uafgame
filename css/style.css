@@ -2,16 +2,18 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    background: rebeccapurple;
 }
 
 button{
     width: 100px;
     height: 100px;
+    border-radius: 8px;
 }
 
 .row{
     width: 100%;
-    background: blue;
+    background: rebeccapurple;
     display: flex;
 }
 
@@ -32,7 +34,7 @@ button{
 }
 
 .info{
-    background: red;
+    background: rebeccapurple;
     width: 20%;
     padding: 24px;
 }
@@ -50,7 +52,8 @@ button{
     background: yellow;
     width: 90px;
     height: 90px;
-    border: solid white 2px;
+    border: solid rebeccapurple 2px;
+    border-radius: 8px;
 }
 
 p{
@@ -64,6 +67,7 @@ p{
     background: lightblue;
     height: 400px;
     padding: 24px;
+    border-radius: 8px;
 }
 
 .faseCero{
