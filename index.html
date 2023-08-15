@@ -20,8 +20,8 @@
     <div class="contenedor">
         <div class="casillas">
             <div id="inicio" class="casilla">
-                <p>Inicio</p>
-                <img id="0" src="src/ficha.png" alt="" width="50px">
+                <p><b>Inicio</b></p>
+                <img id="0" src="src/ficha1.png" alt="" width="50px">
             </div>
             <div class="casilla faseCero">
                 <p>1</p>
@@ -235,7 +235,7 @@
             </div>
             
             <div class="casilla llegada">
-                <p>Llegada</p>
+                <p><b>Llegada</b></p>
                 <img id="49" src="" alt="" width="50px">
             </div>
         </div>
@@ -245,18 +245,37 @@
     <!--Información sobre en que casilla se cae-->
     <div class="info">
         
-        
-        <div class="fasesCard" id="faseExplicacion">
-            <h2 id="tituloFase">Conoce como se realiza el cáculo de la unidad agrícola familiar 
-            paso a paso</h2>
-            <p id="subtituloFase">Reliza el camino a modo de guía inicial
-            para conocer como los equipos técnicos profesionales de la ANT, 
-            realizan e implementan la metodología para actualizar 
-            la Unidad Agrpicola Familiar a lo largo y ancho del país.</p>
+        <div class="baseCard">
+            
+            <div class="fasesCard" id="faseExplicacion">
+                <h2 id="tituloFase">Conoce como se realiza el cáculo de la unidad agrícola familiar 
+                paso a paso</h2>
+                <p id="subtituloFase">Reliza el camino a modo de guía inicial
+                para conocer como los equipos técnicos profesionales de la ANT, 
+                realizan e implementan la metodología para actualizar 
+                la Unidad Agrpicola Familiar a lo largo y ancho del país.</p>
+            </div>
         </div>
 
         <div>
-            <h1 id="mensajeFinal"></h1>
+            <h3 id="mensajeFinal">Lanza el dado</h3>
+
+            <div class="mesaDados">
+
+                <div>
+                    <button onclick="numeroAzar()"><img id="caraDado" src="src/6.png" alt=""></button>
+                </div>
+                <div>
+                    <p style="background: lightblue;" id="infoAdicional">Información adicional</p>
+                    <p style="background: lightcoral;" id="resultadoLanzar">0</p>
+            
+                    <p style="background: lightgoldenrodyellow;" id="totalLanzado">0</p>
+            
+                    
+                </div>
+        
+            </div> 
+
         </div>
 
     </div>
@@ -264,21 +283,7 @@
 
 <div class="row">
     
-    <div class="mesaDados">
-
-        <div class="col-6">
-            <button onclick="numeroAzar()"><img id="caraDado" src="src/6.png" alt=""></button>
-        </div>
-        <div class="col-6">
-            <p style="background: lightblue;" id="infoAdicional">Información adicional</p>
-            <p style="background: lightcoral;" id="resultadoLanzar">0</p>
-    
-            <p style="background: lightgoldenrodyellow;" id="totalLanzado">0</p>
-    
-            
-        </div>
-
-    </div>    
+       
 
     
 </div>

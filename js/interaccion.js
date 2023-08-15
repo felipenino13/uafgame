@@ -89,7 +89,7 @@ function numeroAzar(){
             color46:'lightblue',
             color47:'lightblue',
             color48:'lightblue',
-            color49:'yellowgreen',
+            color49:'#F7DDA8',
         }
 
     let resultadoColor = c[color];
@@ -221,7 +221,7 @@ function numeroAzar(){
 
             document.getElementById('resultadoLanzar').innerHTML = tirarDado;
             document.getElementById(numeroAnterio).src='';
-            document.getElementById(acumulado).src='src/ficha.png';
+            document.getElementById(acumulado).src='src/ficha1.png';
             
             document.getElementById('totalLanzado').innerHTML = acumulado;
 
