@@ -214,6 +214,7 @@ function numeroAzar(){
 
     let resultadoSubtitulo = sb[subtitulo];
 
+    
     //condicionales para avanzar la ficha
 
     if (acumulado < 50 ){
@@ -231,6 +232,7 @@ function numeroAzar(){
             document.getElementById('tituloFase').innerHTML = resultadoTitulo;
 
             document.getElementById('subtituloFase').innerHTML = resultadoSubtitulo;
+
             
             }
             
@@ -243,8 +245,31 @@ function numeroAzar(){
             document.getElementById('resultadoLanzar').innerHTML = tirarDado;
             }
 
+    if (tirarDado < 2){
+        document.getElementById('caraDado').src = 'src/1.png';
+    }
+
+    else if (tirarDado < 3){
+        document.getElementById('caraDado').src = 'src/2.png';
+    }
+
+    else if (tirarDado < 4){
+        document.getElementById('caraDado').src = 'src/3.png';
+    }
+
+    else if (tirarDado < 5){
+        document.getElementById('caraDado').src = 'src/4.png';
+    }
+
+    else if (tirarDado < 6){
+        document.getElementById('caraDado').src = 'src/5.png';
+    }
+
+    else if (tirarDado < 7){
+        document.getElementById('caraDado').src = 'src/6.png';
+    }
             
-        }
+    }
 
         
 
