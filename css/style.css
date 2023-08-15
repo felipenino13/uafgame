@@ -2,7 +2,7 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background: rebeccapurple;
+    background: #037250;
 }
 
 button{
@@ -13,13 +13,13 @@ button{
 
 .row{
     width: 100%;
-    background: rebeccapurple;
+    background: #037250;
     display: flex;
 }
 
 .contenedor{
     display: inline-block;
-    background-color: rebeccapurple;
+    background-color: #037250;
     padding: 24px;
 }
 
@@ -34,7 +34,7 @@ button{
 }
 
 .info{
-    background: rebeccapurple;
+    background: #037250;
     width: 20%;
     padding: 24px;
 }
@@ -49,10 +49,10 @@ button{
 }
 
 .casilla{
-    background: yellow;
+    background: #EBAB25;
     width: 90px;
     height: 90px;
-    border: solid rebeccapurple 2px;
+    border: solid #037250 2px;
     border-radius: 8px;
 }
 
@@ -103,5 +103,5 @@ p{
 }
 
 .llegada{
-    background: yellowgreen;
+    background: #EBAB25;
 }
