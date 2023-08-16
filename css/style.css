@@ -27,7 +27,7 @@ button :active{
 .marca img{
     margin: auto;
     display: flex;
-    width: 100%;
+    width: 70%;
 }
 .row{
     max-width: 1800px;
@@ -42,6 +42,7 @@ button :active{
     display: inline-block;
     background-color: #E1EEDA;
     padding: 24px;
+    margin: auto;
 }
 
 .info{
@@ -71,10 +72,23 @@ button :active{
     flex-direction: row-reverse;
 }
 
+
 .casilla{
     background: #F0F7EC;
-    width: 80px;
-    height: 80px;
+    width: 10%;
+    height: 70px;
+    margin: 2px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    border: solid white 4px;
+    
+}
+
+.casillaSola{
+    background: #F0F7EC;
+    width: 8.5%;
+    height: 70px;
     margin: 2px;
     border-radius: 8px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
@@ -178,7 +192,6 @@ p{
     }
 
     .row {
-      flex-direction: row-reverse;
       flex-wrap: nowrap;
       display: flex;
       width: 100%;
@@ -211,5 +224,14 @@ p{
 
     .casillas{
         flex-direction: column;
+    }
+
+    .casilla{
+        width: 80%;
+        
+    }
+
+    .casillaSola{
+        width: 80%;
     }
   }

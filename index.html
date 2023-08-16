@@ -17,7 +17,49 @@
 
 <body>
 <div class="row">
+    <!--Información sobre en que casilla se cae-->
+    <div class="info">
+        <div class="marca">
+            <img src="src/marca.png" alt="">
+        </div>
+        <div class="baseCard">
+            
+            <div class="fasesCard" id="faseExplicacion">
+                <h3 id="tituloFase">Conoce como se realiza el cáculo de la unidad agrícola familiar 
+                paso a paso</h3>
+                <p id="subtituloFase">Reliza el camino a modo de guía inicial
+                para conocer como los equipos técnicos profesionales de la ANT, 
+                realizan e implementan la metodología para actualizar 
+                la Unidad Agrpicola Familiar a lo largo y ancho del país.</p>
+            </div>
+        </div>
+
+        <div>
+            <h3 id="mensajeFinal">Lanza el dado</h3>
+
+            <div class="mesaDados">
+
+                <div>
+                    <button class="shake1" onclick="numeroAzar()"><img id="caraDado" src="src/6.png" alt=""></button>
+                </div>
+                <div>
+                    <p style="background: lightblue;" id="infoAdicional">Información adicional</p>
+                    <p style="background: lightcoral;" id="resultadoLanzar">0</p>
+            
+                    <p style="background: lightgoldenrodyellow;" id="totalLanzado">0</p>
+            
+                    
+                </div>
+        
+            </div> 
+
+        </div>
+
+    </div>
+
+    <!--TAblero escalera y casillas-->
     <div class="contenedor">
+        
         <div class="casillas">
             <div id="inicio" class="casilla">
                 <p><b>Inicio</b></p>
@@ -59,10 +101,18 @@
                 <p>9</p>
                 <img id="9" src="" alt="" width="50px">
             </div>
-            <div class="casilla faseUno">
+                        
+        </div>
+    
+        <div class="casillasDos">
+            <div class="casillaSola faseUno">
                 <p>10</p>
                 <img id="10" src="" alt="" width="50px">
             </div>
+            
+        </div>
+    
+        <div class="casillasDos">
             <div class="casilla faseUno">
                 <p>11</p>
                 <img id="11" src="" alt="" width="50px">
@@ -75,16 +125,10 @@
                 <p>13</p>
                 <img id="13" src="" alt="" width="50px">
             </div>
-        </div>
-    
-        <div class="casillasDos">
             <div class="casilla faseDos">
                 <p>14</p>
                 <img id="14" src="" alt="" width="50px">
             </div>
-        </div>
-    
-        <div class="casillasDos">
             <div class="casilla faseDos">
                 <p>15</p>
                 <img id="15" src="" alt="" width="50px">
@@ -109,10 +153,19 @@
                 <p>20</p>
                 <img id="20" src="" alt="" width="50px">
             </div>
-            <div class="casilla faseTres">
+            
+        </div>
+    
+        <div class="casillas"> 
+            <div class="casillaSola faseTres">
                 <p>21</p>
                 <img id="21" src="" alt="" width="50px">
             </div>
+            
+    
+        </div>
+    
+        <div class="casillas">
             <div class="casilla faseTres">
                 <p>22</p>
                 <img id="22" src="" alt="" width="50px">
@@ -141,16 +194,10 @@
                 <p>28</p>
                 <img id="28" src="" alt="" width="50px">
             </div>
-        </div>
-    
-        <div class="casillas"> 
             <div class="casilla faseCuatro">
                 <p>29</p>
                 <img id="29" src="" alt="" width="50px">
             </div>
-        </div>
-    
-        <div class="casillas">
             <div class="casilla faseCuatro">
                 <p>30</p>
                 <img id="30" src="" alt="" width="50px">
@@ -159,10 +206,19 @@
                 <p>31</p>
                 <img id="31" src="" alt="" width="50px">
             </div>
-            <div class="casilla faseQuinta">
+     
+        </div>
+    
+        <div class="casillasDos">
+            <div class="casillaSola faseQuinta">
                 <p>32</p>
                 <img id="32" src="" alt="" width="50px">
             </div>
+            
+        </div>
+    
+        <div class="casillasDos">
+            
             <div class="casilla faseQuinta">
                 <p>33</p>
                 <img id="33" src="" alt="" width="50px">
@@ -203,20 +259,21 @@
                 <p>42</p>
                 <img id="42" src="" alt="" width="50px">
             </div>
-            <div class="casilla faseSeptima">
+        </div>
+
+        <div class="casillas">
+            <div class="casillaSola faseSeptima">
                 <p>43</p>
                 <img id="43" src="" alt="" width="50px">
             </div>
         </div>
-    
-        <div class="casillasDos">
+
+        <div class="casillas">
+            
             <div class="casilla faseSeptima">
                 <p>44</p>
                 <img id="44" src="" alt="" width="50px">
             </div>
-        </div>
-    
-        <div class="casillasDos">
             <div class="casilla faseSeptima">
                 <p>45</p>
                 <img id="45" src="" alt="" width="50px">
@@ -242,45 +299,7 @@
     
     </div>
     
-    <!--Información sobre en que casilla se cae-->
-    <div class="info">
-        <div class="marca">
-            <img src="src/marca.png" alt="">
-        </div>
-        <div class="baseCard">
-            
-            <div class="fasesCard" id="faseExplicacion">
-                <h2 id="tituloFase">Conoce como se realiza el cáculo de la unidad agrícola familiar 
-                paso a paso</h2>
-                <p id="subtituloFase">Reliza el camino a modo de guía inicial
-                para conocer como los equipos técnicos profesionales de la ANT, 
-                realizan e implementan la metodología para actualizar 
-                la Unidad Agrpicola Familiar a lo largo y ancho del país.</p>
-            </div>
-        </div>
-
-        <div>
-            <h3 id="mensajeFinal">Lanza el dado</h3>
-
-            <div class="mesaDados">
-
-                <div>
-                    <button class="shake1" onclick="numeroAzar()"><img id="caraDado" src="src/6.png" alt=""></button>
-                </div>
-                <div>
-                    <p style="background: lightblue;" id="infoAdicional">Información adicional</p>
-                    <p style="background: lightcoral;" id="resultadoLanzar">0</p>
-            
-                    <p style="background: lightgoldenrodyellow;" id="totalLanzado">0</p>
-            
-                    
-                </div>
-        
-            </div> 
-
-        </div>
-
-    </div>
+    
 </div>
 
 <div class="row">
