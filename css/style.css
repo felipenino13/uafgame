@@ -27,16 +27,26 @@ button :active{
 .marca img{
     margin: auto;
     display: flex;
+    width: 100%;
 }
 .row{
-    width: 100%;
+    max-width: 1800px;
     background: #E1EEDA;
     display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
 }
 
 .contenedor{
+    width: 80%;
     display: inline-block;
     background-color: #E1EEDA;
+    padding: 24px;
+}
+
+.info{
+    background: #E1EEDA;
+    width: 20%;
     padding: 24px;
 }
 
@@ -50,11 +60,7 @@ button :active{
 
 }
 
-.info{
-    background: #E1EEDA;
-    width: 20%;
-    padding: 24px;
-}
+
 
 .casillas{
     display: flex;
@@ -85,7 +91,6 @@ p{
 }
 
 .baseCard{
-    width: 100%;
     background: white;
     padding: 16px;
     border-radius: 8px;
@@ -161,3 +166,50 @@ p{
   90% { -webkit-transform:     translate(2px, 2px) rotate(0deg); }
   100%{ -webkit-transform:     translate(1px, -2px) rotate(-1deg); }
  }
+
+ @media only screen and (max-width: 600px) {
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .row {
+      flex-direction: row-reverse;
+      flex-wrap: nowrap;
+      display: flex;
+      width: 100%;
+    }
+
+    .info{
+        width: 70%;
+        display: inline-block;
+    }
+
+    .contenedor{
+        width: 30%;
+        height: 94vh;
+        display: flex;
+        overflow-y: auto;
+        flex-direction: column;
+
+    }
+
+    .fasesCard{
+        background: #F0F7EC;
+        height: auto;
+        padding: 24px;
+        border-radius: 12px;
+    }
+
+    .casillasDos{
+        flex-direction: column;
+    }
+
+    .casillas{
+        flex-direction: column;
+    }
+  }
