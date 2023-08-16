@@ -181,7 +181,63 @@ p{
   100%{ -webkit-transform:     translate(1px, -2px) rotate(-1deg); }
  }
 
- @media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 768px) {
+
+    h2{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .row {
+      flex-wrap: wrap;
+      display: flex;
+      width: 100%;
+    }
+
+    .info{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contenedor{
+        width: 100%;
+
+    }
+
+    
+
+    .fasesCard{
+        background: #F0F7EC;
+        height: auto;
+        padding: 24px;
+        border-radius: 12px;
+    }
+
+    .marca{
+        width: 100%;
+    }
+
+    .marca img{
+        width: 30%;
+    }
+
+    .baseCard{
+        width: 50%;
+    }
+
+    .espacioDados{
+        padding: 24px;
+        width: 30%;
+    }
+
+   
+  }
+
+ @media only screen and (max-width: 425px) {
 
     h2{
         font-size: 20px;
@@ -208,6 +264,7 @@ p{
         display: flex;
         overflow-y: auto;
         flex-direction: column;
+        background: blue;
 
     }
 
