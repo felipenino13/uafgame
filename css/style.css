@@ -6,6 +6,11 @@ body{
     color: #037250;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 button{
     width: 100px;
     height: 100px;

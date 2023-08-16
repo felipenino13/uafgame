@@ -253,7 +253,8 @@ function numeroAzar(){
             
 
             else if (numeroAnterio > 48){
-                document.getElementById('mensajeFinal').innerHTML = 'Ganaste';
+                document.getElementById('mensajeFinal').innerHTML = 'Ganaste'
+                document.getElementById('ancla').href = '#inicio';
             }
 
             else{
