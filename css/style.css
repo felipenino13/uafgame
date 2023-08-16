@@ -42,7 +42,10 @@ button :active{
     display: inline-block;
     background-color: #E1EEDA;
     padding: 24px;
-    margin: auto;
+}
+
+.mensajeLanza{
+    display: none;
 }
 
 .info{
@@ -57,10 +60,14 @@ button :active{
 
 .mesaDados{
     display: flex;
-    width: 100%;
-
+    position: fixed;
+    top: 85%;
+    left: 85%;
 }
 
+.numerosAvanzar{
+    display: none;
+}
 
 
 .casillas{
@@ -304,5 +311,12 @@ p{
 
     .casillaSola{
         width: 80%;
+    }
+
+    .mesaDados{
+        display: flex;
+        position: fixed;
+        top: 85%;
+        left: 36%;
     }
   }
