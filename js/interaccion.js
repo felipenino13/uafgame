@@ -225,6 +225,8 @@ function numeroAzar(){
 
     let resultadoSubtitulo = sb[subtitulo];
 
+    let anclaje = "#" + (acumulado - 4);
+
     
     //condicionales para avanzar la ficha
 
@@ -243,6 +245,8 @@ function numeroAzar(){
             document.getElementById('tituloFase').innerHTML = resultadoTitulo;
 
             document.getElementById('subtituloFase').innerHTML = resultadoSubtitulo;
+
+            document.getElementById('ancla').href = anclaje;
 
             
             }
