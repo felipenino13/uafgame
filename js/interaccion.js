@@ -160,13 +160,15 @@ function numeroAzar(){
 
     let subtitulo = 'subtitulo'+acumulado;
 
+    let s = "<br>";
+
     const sb = {
-        subtitulo1: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.',
-        subtitulo2: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.',
-        subtitulo3: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.',
-        subtitulo4: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.',
-        subtitulo5: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.',
-        subtitulo6: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.',
+        subtitulo1: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.'+s+s+'1. paso en paso '+s+'2. paso dos de dos en dos',
+        subtitulo2: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.'+s+s+' 1. paso en paso '+s+'2. paso dos de dos en dos',
+        subtitulo3: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.'+s+s+' 1. paso en paso '+s+'2. paso dos de dos en dos',
+        subtitulo4: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.'+s+s+' 1. paso en paso '+s+'2. paso dos de dos en dos',
+        subtitulo5: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.'+s+s+' 1. paso en paso '+s+'2. paso dos de dos en dos',
+        subtitulo6: 'Se analiza las características sociales, productivo-económicas y ambientales del municipio. Se planifica la recolección de la información en campo.'+s+s+' 1. paso en paso '+s+'2. paso dos de dos en dos',
 
         subtitulo7: 'Se vincula el espacio geográfico con bases de datos alfanuméricas estadísticas a escala submunicipal.',
         subtitulo8: 'Se vincula el espacio geográfico con bases de datos alfanuméricas estadísticas a escala submunicipal.',
@@ -276,6 +278,7 @@ function numeroAzar(){
     else if (tirarDado < 7){
         document.getElementById('caraDado').src = 'src/6.png';
     }
+    
             
     }
 
