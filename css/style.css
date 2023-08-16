@@ -31,16 +31,15 @@ button :active{
 }
 .row{
     max-width: 1800px;
-    background: #E1EEDA;
     display: flex;
     flex-wrap: nowrap;
     margin: auto;
+    
 }
 
 .contenedor{
     width: 80%;
     display: inline-block;
-    background-color: #E1EEDA;
     padding: 24px;
 }
 
@@ -49,9 +48,9 @@ button :active{
 }
 
 .info{
-    background: #E1EEDA;
     width: 20%;
     padding: 24px;
+    height: min-content;
 }
 
 .col-6{
@@ -111,6 +110,15 @@ p{
     margin-block-end: 0;
 }
 
+h3{
+    margin-block-start: 0;
+}
+
+ol{
+    padding-inline-start: 20px;
+    font-size: 0.9rem;
+}
+
 
 .baseCard{
     background: white;
@@ -129,7 +137,7 @@ p{
 }
 
 .faseUno{
-    background-color: lightseagreen;
+    background: #d6c4ff;
 }
 
 .faseDos{
@@ -137,7 +145,7 @@ p{
 }
 
 .faseTres{
-    background: lightpink;
+    background: #ffd7dd;
 }
 
 .faseCuatro{
@@ -145,7 +153,7 @@ p{
 }
 
 .faseQuinta{
-    background: lightsalmon;
+    background: #ffc8b2;
 }
 
 .faseSexta{
@@ -220,7 +228,6 @@ p{
 
     .fasesCard{
         background: #F0F7EC;
-        height: auto;
         padding: 24px;
         border-radius: 12px;
     }
@@ -278,6 +285,7 @@ p{
 
     .marca{
         padding: 0;
+        padding-bottom: 24px;
     }
 
     .marca img{
@@ -291,7 +299,6 @@ p{
 
     .fasesCard{
         background: #F0F7EC;
-        height: auto;
         padding: 24px;
         border-radius: 12px;
     }
