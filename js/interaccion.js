@@ -253,8 +253,9 @@ function numeroAzar(){
             
 
             else if (numeroAnterio > 48){
-                document.getElementById('mensajeFinal').innerHTML = 'Ganaste'
+                document.getElementById('mensajeFinal').innerHTML = 'Ganaste';
                 document.getElementById('ancla').href = '#inicio';
+                document.getElementById('restartGame').style.display = 'flex';
             }
 
             else{
@@ -295,6 +296,9 @@ function numeroAzar(){
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min) + min);                  
     }
+function puntoCero(){
+    window.location.reload()
+}
 
         
 

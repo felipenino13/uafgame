@@ -136,6 +136,18 @@ li{
     
 }
 
+.reinicio{
+    display: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.reinicio button{
+    border-radius: 80px;
+    width: 72px;
+    height: 72px;
+}
+
 p{
     margin: 0;
     padding: 0;
