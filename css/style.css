@@ -54,7 +54,7 @@ button :active{
 .marca img{
     margin: auto;
     display: flex;
-    width: 70%;
+    width: 80%;
 }
 .row{
     max-width: 1800px;
@@ -105,6 +105,10 @@ button :active{
 .casillasDos{
     display: flex;
     flex-direction: row-reverse;
+}
+
+li{
+    list-style-type:circle;
 }
 
 
@@ -244,8 +248,8 @@ ol{
     .info{
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        padding-right: 0;
+        flex-wrap: nowrap;
+        padding-right: 24px;
     }
 
     .contenedor{
@@ -262,11 +266,11 @@ ol{
     }
 
     .marca{
-        width: 100%;
+        width: 50%;
     }
 
     .marca img{
-        width: 30%;
+        width: 70%;
     }
 
     .baseCard{
@@ -301,7 +305,11 @@ ol{
     .info{
         width: 80%;
         display: flex;
+        flex-wrap: wrap;
+        padding-right: 0;
     }
+
+    
 
     .contenedor{
         width: 20%;
