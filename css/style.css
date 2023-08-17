@@ -138,8 +138,9 @@ li{
 
 .reinicio{
     display: none;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
 }
 
 .reinicio button{
