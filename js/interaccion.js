@@ -248,7 +248,8 @@ function numeroAzar(){
 
             document.getElementById('ancla').href = anclaje;
 
-            
+            document.getElementById('personaje').style.animationName ='exampleout';
+            document.getElementById('personaje').style.left ='-100%';
             }
             
 
