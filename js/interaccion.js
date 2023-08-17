@@ -149,7 +149,7 @@ function numeroAzar(){
         titulo46: 'Fase 7. Verificación de áreas adjudicables en UAF',
         titulo47: 'Fase 7. Verificación de áreas adjudicables en UAF',
         titulo48: 'Fase 7. Verificación de áreas adjudicables en UAF',
-        titulo49:'Cierre del proceso de Cálculo y elaboraicón del informe',
+        titulo49:'Cierre del proceso de cálculo y elaboración del informe',
     }
 
     let resultadoTitulo = t[titulo];
