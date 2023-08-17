@@ -326,7 +326,7 @@ ol{
 
     .contenedor{
         width: 20%;
-        height: 90vh;
+        height: 85vh;
         display: flex;
         overflow-y: auto;
         flex-direction: column;
