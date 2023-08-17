@@ -260,6 +260,7 @@ function numeroAzar(){
                 document.getElementById('ancla').href = '#inicio';
                 document.getElementById('restartGame').style.display = 'flex';
                 win();
+                document.getElementById('premio').src = 'src/trofeo.svg'
             }
 
             
