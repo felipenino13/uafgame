@@ -66,13 +66,13 @@ button :active{
     
 }
 @keyframes example {
-    from {left: -50%;}
+    from {left: -100%;}
     to {left: 0%;}
 }
 
 @keyframes exampleout {
     from {left: 0%;}
-    to {left: -50%;}
+    to {left: -100%;}
 }
 
 .farmer{
@@ -81,7 +81,7 @@ button :active{
     bottom: -2%;
     left: 0%;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 
