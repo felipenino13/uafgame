@@ -334,9 +334,15 @@ ol{
     }
 
     .marca{
+        width: 100%;
         padding: 0;
-        padding-bottom: 24px;
+        padding-bottom: 16px;
     }
+
+    .reinicio{
+        bottom: 2%;
+    }
+
 
     .marca img{
         width: 70%;
