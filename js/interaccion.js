@@ -308,7 +308,7 @@ function numeroAzar(){
     }
 
 function win(){
-        /*confeti animacion*/
+/*confeti animacion*/
     
     // global variables
 const confetti = document.getElementById('confetti');
